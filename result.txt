@@ -1,0 +1,30 @@
+ASSIGNMENT PROBLEM SOLUTION
+============================
+
+Matrix size: 5x5
+
+Cost matrix:
+  12    7    9    7    9 
+   8    9    6    6    6 
+   7   17   12   14    9 
+  15   14    6    6   10 
+   4   10    7   10    9 
+
+--- GREEDY ALGORITHM ---
+
+Greedy algorithm:
+Total cost: 35
+Assignment: W1->J2, W2->J3, W3->J1, W4->J4, W5->J5
+
+--- BRUTE FORCE ALGORITHM ---
+
+Brute force algorithm:
+Total cost: 32
+Assignment: W1->J2, W2->J3, W3->J5, W4->J4, W5->J1
+
+--- COMPARISON ---
+Greedy cost: 35
+Brute force cost: 32
+Brute force found better solution by 3
+
+=== END OF REPORT ===
